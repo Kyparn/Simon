@@ -1,0 +1,78 @@
+/* Example styling of a h1 element */
+
+body {background-color:#A5EFE7;}
+
+blockquote {
+  float: right;
+  width: 200px;
+  font-size: 100%;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0 px 0px 10px 10px;
+  padding: 10px;
+  border-top: 1px solid #665544;
+  border-bottom: 1px solid #665544}
+
+h1 {
+  font-size: 100px;
+  color: darkblue;
+  text-align: center;}
+
+h2 {font-size: 40px;
+  color: darkblue;
+text-align: center;
+padding-left:40px;}
+
+h3 {font-size: 30px; 
+  color:darkblue;
+  text-align: center;
+font-family: 'Times New Roman', Times, serif;}
+
+p {
+  padding-left: 40px;
+  text-align: left;
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;}
+
+article {
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 40px;}
+
+img {float: right;
+padding-right: 130px;}
+
+nav { display: flex;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  list-style-type: none;
+  gap: 20px;
+  justify-content: center;}
+
+  ul {
+    padding-left: 40px;
+  }
+
+footer {
+  padding-bottom: 40px;}
+
+@media screen and (max-width: 768px){
+  nav {
+      display: flex;
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      list-style-type: none;
+      gap: 30px;
+      justify-content: center;}
+}
+
+@media screen and (max-width: 500px){
+  nav {
+      display: flex;
+      font-size: 30px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      list-style-type: none;
+      gap: 30px;
+      justify-content: center;}
+}
